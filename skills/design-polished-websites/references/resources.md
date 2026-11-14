@@ -1,27 +1,85 @@
-# Curated design resources
+# Website design resources — all five from the reel
 
-Reviewed 2026-11-14. Source reel: https://www.instagram.com/reel/Dck7FxNT2wX/
+Reviewed: 2026-11-14. All five names were visually confirmed in the original reel.
+[Original video and verification notes](source-instagram-reel.md).
 
-The reel advertises five websites. Only the following three were reliably identified in the inspected video. Two remain unidentified: do not invent their names or claim complete coverage. The caption includes #ad and #manuspartner; treat promotional claims as claims, not independent quality evidence.
+These are five resources used by ONE design skill, not five installed integrations.
+Choose by project need; do not force all five into every build.
 
-| Resource | Verified role | Selection rule |
-| --- | --- | --- |
-| Recent, labelled Godly in the reel — https://recent.design/ | Curated design, website and digital-product inspiration. Its official Info page says it replaces Godly. | Use for visual discovery; inspect relevant examples and extract concrete design decisions. It is not a component installation. |
-| React Spring — https://www.react-spring.dev/ | Library for interactive animated UI; official docs cover web animation and reduced-motion utilities. | Consider for a React project needing spring-based motion. Check current compatibility and documentation before installation. Simple CSS transitions may suffice. |
-| Manus — https://manus.im/ | AI platform offering website building and other tasks. | Optional alternative building environment if the user selects it and access is available. It is not a required library, design system or automatically available integration. |
+| ID | Website | Category | Skill capability | When to choose it |
+| --- | --- | --- | --- | --- |
+| 01 | [Watermelon UI](https://ui.watermelon.sh/) | Components and sections | Component selection and adaptation | A compatible React project needs a strong component starting point |
+| 02 | [Manus](https://manus.im/) | AI website/platform tool | Structured brief and prototype review | The user wants a Manus workflow or already has a Manus prototype |
+| 03 | [Realtime Colors](https://www.realtimecolors.com/) | Colours and typography | Palette and font selection | Choosing or refining a visual identity |
+| 04 | [React Spring](https://www.react-spring.dev/) | React animation library | Purposeful motion | React interactions need spring-based animation |
+| 05 | [Godly / Recent](https://recent.design/) | Design inspiration | Art direction and layout analysis | The idea needs a distinctive visual direction |
 
-Primary documentation:
-- https://recent.design/info
-- https://www.react-spring.dev/docs/getting-started
-- https://www.react-spring.dev/docs/utilities/use-reduced-motion (verify availability before use)
-- https://manus.im/
+## 01 — Watermelon UI: components and sections
 
-These are curated references within one design skill, not three installed third-party products. Consult current official sources for APIs, compatibility, pricing, licensing and capabilities. Saved notes do not mean the full websites or their code have been downloaded.
+**Official reference:** https://ui.watermelon.sh/
 
-## Selection example
+Provides React components, blocks and templates. Use it as a starting point for suitable UI sections.
 
-For a Malaysian café NFC product landing page in plain HTML/CSS: choose a product-led composition with a believable tag and menu preview; use Recent for relevant visual references if accessible; implement light motion with CSS; retain HTML/CSS. React Spring is unnecessary without React, and Manus is optional rather than a prerequisite. Choose the final palette and typography for the particular brand rather than treating any example as a permanent default.
+**AI instructions:** Inspect the chosen component and its source before use. Check its licence, dependencies and stack compatibility. Adapt colours, typography, spacing, content and states to the project's design contract. Preserve accessible semantics, keyboard focus and responsive behaviour. Test the resulting component in the actual page.
 
-## Adding future learning
+**Expected output:** A project-specific component with consistent tokens and working states.
+**Skip when:** The existing design system already solves the need, or adopting it would introduce an unsuitable framework.
 
-For a new reel, screenshot, website or repository, record the exact source, review date, verified lesson, applicable situations, constraints and actionable design decisions. Separate user preference from third-party marketing and from unverified assertions. Add new reference notes without forcing every future project to use every resource. For security or API claims, verify current primary documentation before promoting them into instructions.
+## 02 — Manus: structured brief and prototype review
+
+**Official reference:** https://manus.im/
+
+An AI platform with website-building capabilities. Its presence in the reel is not a requirement to use a third-party builder.
+
+**AI instructions:** When Manus is relevant, prepare a brief covering audience, primary action, content, page structure, palette, typography, assets, interactions and acceptance checks. Review any generated prototype against that brief and the main skill's quality checklist. Treat the result as something to inspect and refine.
+
+**Expected output:** A concrete build brief or reviewed prototype.
+**Skip when:** Building directly in the current repository already meets the goal. Do not claim a Manus integration exists, upload private project data, subscribe or deploy merely because this reference is listed.
+
+## 03 — Realtime Colors: palette and typography
+
+**Official reference:** https://www.realtimecolors.com/
+**Font guide:** https://www.realtimecolors.com/docs/font-setup
+
+Previews colour and font choices on a sample website and supports exporting a palette.
+
+**AI instructions:** Start from existing brand requirements where available. Define actual values for text, background, primary, secondary and accent colours. Preview their proportions across a realistic layout. Choose heading and body fonts that fit the audience and are available for the project. Translate decisions into named project tokens, then verify contrast and readability in the actual design.
+
+**Expected output:** Concrete colour values, font choices and consistent reusable tokens.
+**Skip when:** The established brand already specifies these choices. A preview is not proof of accessibility.
+
+## 04 — React Spring: purposeful motion
+
+**Official reference:** https://www.react-spring.dev/
+**Getting started:** https://www.react-spring.dev/docs/getting-started
+
+A spring-based React animation library.
+
+**AI instructions:** Use it when motion communicates state or supports a meaningful interaction and the project uses React. Check current documentation and compatibility before installing. Define the trigger, animated properties and spring behaviour. Provide a reduced-motion alternative and ensure content remains usable without animation. Prefer simple CSS transitions when sufficient.
+
+**Expected output:** A justified interaction with responsive behaviour and reduced-motion support.
+**Skip when:** The project is not React, or a new dependency adds no practical value.
+
+## 05 — Godly / Recent: art direction and layout
+
+**Official reference:** https://recent.design/
+**Name history:** https://recent.design/info
+
+The reel labels it “Godly” while showing recent.design. Recent's information page explains the transition from Godly.
+
+**AI instructions:** Inspect two or three relevant examples. Record useful observations about hierarchy, composition, typography, whitespace, imagery and interaction. Translate these into an original design contract for this product. Preserve the project's identity rather than reproducing another site's branding or artwork.
+
+**Expected output:** A clear visual direction and concrete layout decisions.
+**Skip when:** Existing references and branding already provide sufficient direction.
+
+## Automatic selection workflow
+
+1. Read the brief and existing project first.
+2. Use Recent when direction is unclear; derive principles from observed examples.
+3. Use Realtime Colors when palette or typography needs decisions.
+4. Use Watermelon UI when compatible components would improve implementation.
+5. Use React Spring only when justified motion benefits a React project.
+6. Use Manus only when the requested workflow benefits from that platform.
+7. Render the actual result, inspect mobile and desktop, and fix observed issues.
+
+These selection rules are our authored guidance, not a transcript or endorsement from the creator. Browse current documentation when relying on changing capabilities. If a resource cannot be accessed, disclose that limitation and continue with a self-authored design where possible.
