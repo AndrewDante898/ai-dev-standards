@@ -6,7 +6,7 @@ Andrew's reusable AI development standards, skills and learning references.
 
 | File | Label | What it does |
 | --- | --- | --- |
-| [AGENTS.md](AGENTS.md) | Agent entry instructions | Tells a coding agent when to load the design skill |
+| [AGENTS.md](AGENTS.md) | Agent entry instructions | Tells a coding agent when to load relevant skills and standards |
 | [Design skill](skills/design-polished-websites/SKILL.md) | Instructions the AI follows | Chooses art direction, builds the page and checks visual quality |
 | [Five website guides](skills/design-polished-websites/references/resources.md) | Resources and selection rules | Explains each website, what the AI learns from it and when to use it |
 | [Original video notes](skills/design-polished-websites/references/source-instagram-reel.md) | Source and provenance | Links the reel, names its creator and records verification |
@@ -32,6 +32,14 @@ Give your coding agent access to this repository and ask:
 > Read skills/design-polished-websites/SKILL.md and its referenced resources. Apply it to this project, choose the best design direction and relevant resources automatically, and implement my idea.
 
 Copy the complete skill folder into the agent's supported skill directory, or explicitly point it to a checkout it can read. A GitHub URL alone does not install instructions in every AI tool. The installed ChatGPT skill and this repository are independent copies; updates are not automatically synchronized.
+
+## Traffic readiness — performance and scalability
+
+[Traffic-readiness guide](standards/traffic-readiness.md) records the next Instagram post's five checks: database queries, caching, images, load testing and rate limiting. Each includes the post's statement, suggested fix, practical AI instructions and verification requirements.
+
+**[Original Instagram post](https://www.instagram.com/p/DfHhUHxjT-I/)** — documented from the six supplied screenshots.
+
+> Read AGENTS.md and standards/traffic-readiness.md. Review this project against all five checks, choose suitable fixes for our stack, and implement and verify the applicable changes.
 
 ## Add future learning
 
