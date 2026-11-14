@@ -1,21 +1,38 @@
 # ai-dev-standards
 
-Andrew's reusable AI development standards, curated references and skills.
+Andrew's reusable AI development standards, skills and learning references.
 
-## Design skill
+## Start here — what is what?
 
-[Design Polished Websites](skills/design-polished-websites/SKILL.md) helps an AI choose the visual direction, layout, typography, colours, imagery and motion for a website, then review the rendered result. Use relevant resources selectively; preserve existing branding and project constraints.
+| File | Label | What it does |
+| --- | --- | --- |
+| [AGENTS.md](AGENTS.md) | Agent entry instructions | Tells a coding agent when to load the design skill |
+| [Design skill](skills/design-polished-websites/SKILL.md) | Instructions the AI follows | Chooses art direction, builds the page and checks visual quality |
+| [Five website guides](skills/design-polished-websites/references/resources.md) | Resources and selection rules | Explains each website, what the AI learns from it and when to use it |
+| [Original video notes](skills/design-polished-websites/references/source-instagram-reel.md) | Source and provenance | Links the reel, names its creator and records verification |
 
-### Use in a project
+## All five websites from the video
+
+**[Watch the original Instagram reel](https://www.instagram.com/reel/Dck7FxNT2wX/)** by buildwaleesh. All five names verified on 2026-11-14.
+
+| ID | Website | Use |
+| --- | --- | --- |
+| 01 | [Watermelon UI](https://ui.watermelon.sh/) | Components and page sections |
+| 02 | [Manus](https://manus.im/) | AI website building and prototype workflow |
+| 03 | [Realtime Colors](https://www.realtimecolors.com/) | Colour palette and typography |
+| 04 | [React Spring](https://www.react-spring.dev/) | React animation and interactions |
+| 05 | [Godly / Recent](https://recent.design/) | Design inspiration and layout direction |
+
+One design skill coordinates these five resources. The AI selects what suits the project; it does not have to use every website.
+
+## Use in a project
 
 Give your coding agent access to this repository and ask:
 
-> Read skills/design-polished-websites/SKILL.md and its referenced resources. Apply it to this project, choose the best design direction automatically, and implement my idea.
+> Read skills/design-polished-websites/SKILL.md and its referenced resources. Apply it to this project, choose the best design direction and relevant resources automatically, and implement my idea.
 
-For another project, copy the complete skill folder into that agent's supported skill directory or explicitly point the agent to this checkout. Merely saving a GitHub URL does not install the skill in every AI tool. The separately installed ChatGPT skill and this repository are independent copies; updates are not automatically synchronized.
+Copy the complete skill folder into the agent's supported skill directory, or explicitly point it to a checkout it can read. A GitHub URL alone does not install instructions in every AI tool. The installed ChatGPT skill and this repository are independent copies; updates are not automatically synchronized.
 
-## Curated sources
+## Add future learning
 
-The design resource note records three verified resources from the supplied Instagram reel: Recent (Godly), React Spring and Manus. Two of the reel's five resources remain unidentified. The skill does not require all listed tools for every project.
-
-Add future learning with its source, review date, practical lesson, suitable uses and verification status. Keep secrets and private client material out of this repository.
+Label each addition with its purpose, original source, review date, practical instructions, suitable uses and verification status. Preserve existing project requirements and keep secrets or private client material out of this repository.
