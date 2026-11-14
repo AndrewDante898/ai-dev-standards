@@ -1,0 +1,14 @@
+interface:
+  display_name: Design Polished Websites
+  short_description: Choose and apply a polished visual direction
+  default_prompt: Use $design-polished-websites to turn my idea into a polished website,
+    choosing the best visual direction and resources automatically.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
